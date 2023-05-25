@@ -1,7 +1,6 @@
 package ru.netology;
 
 import ru.netology.javaqa.javaqamvn.services.CalcWeekend;
-
 public class Main {
     public static void main(String[] args) {
 
