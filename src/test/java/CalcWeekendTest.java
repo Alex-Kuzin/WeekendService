@@ -11,9 +11,9 @@ public class CalcWeekendTest {
     }
 
     )
-    public void shouldCalcExtract(int expected, int income, int expenses, int threshold){
+    public void shouldCalcExtract(int expected, int income, int expenses, int threshold) {
         CalcWeekend service = new CalcWeekend();
-       // int expected = 2;
+        // int expected = 2;
         int calcCount = (int) service.calculate(income, expenses, threshold);
         Assertions.assertEquals(expected, calcCount);
 
